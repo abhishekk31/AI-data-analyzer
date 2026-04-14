@@ -3,7 +3,7 @@ import {
   BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid,
   PieChart, Pie, Cell, ResponsiveContainer
 } from "recharts";
-import "../Componets/Fileui.css";
+import "./Fileui.css";
 import { useRef, useEffect } from "react";
 import '../App.css'
 
