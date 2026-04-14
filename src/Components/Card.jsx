@@ -1,7 +1,7 @@
 import React from 'react'
 import img1 from '../assets/ai-use.jpg'
 import img2 from '../assets/ai-bar-chart.jpg'
-import img3 from '../assets/ai-chart.jpg'
+import img3 from '../assets/ai-chat.jpg'
 import img4 from '../assets/pie-chart.jpg'
 import './Card.css'
 
