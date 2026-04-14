@@ -49,7 +49,7 @@ function UploadComponent() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const res = await fetch("http://localhost:5000/upload", {
+    const res = await fetch(`${import.meta.env.VITE_API_URL}/upload`, {
       method: "POST",
       body: formData
     });
@@ -69,7 +69,7 @@ function UploadComponent() {
     setChat(prev => [...prev, { type: "user", text: query }]);
     setLoading(true);
 
-    const res = await fetch("http://localhost:5000/ask", {
+    const res = await fetch(`${import.meta.env.VITE_API_URL}/ask`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query, data })
