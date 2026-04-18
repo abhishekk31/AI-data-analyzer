@@ -1,26 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid,
-  PieChart, Pie, Cell, ResponsiveContainer
+  PieChart, Pie, Cell, ResponsiveContainer,
+  LineChart, Line
 } from "recharts";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./Fileui.css";
-import { useRef, useEffect } from "react";
-import '../App.css'
 
-const COLORS = [
-  "#0088FE",
-  "#00C49F",
-  "#FFBB28",
-  "#FF8042",
-  "#A28CFF",
-  "#FF6699"
-];
+const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#A28CFF", "#FF6699"];
 
 function UploadComponent() {
+
   const [file, setFile] = useState(null);
   const [data, setData] = useState([]);
   const [isUploaded, setIsUploaded] = useState(false);
-  const chatEndRef = useRef(null);
   const [alert, setAlert] = useState(null);
 
   const [query, setQuery] = useState("");
@@ -31,17 +24,13 @@ function UploadComponent() {
   const [showBar, setShowBar] = useState(false);
   const [showPie, setShowPie] = useState(false);
 
+  const chatBoxRef = useRef(null);
+  const pieRef = useRef(null);
+
+
   const handleUpload = async () => {
     if (!file) {
-      setAlert({ type: "error", message: "Please select CSV file" });
-      setTimeout(() => setAlert(null), 3000);
-      return;
-    }
-
-    if (!file.name.endsWith(".csv")) {
-      setAlert({ type: "error", message: "Please upload a valid CSV file" });
-
-      // auto hide after 3 sec
+      setAlert({ type: "custom-alert error", message: "Please select CSV file" });
       setTimeout(() => setAlert(null), 3000);
       return;
     }
@@ -59,9 +48,10 @@ function UploadComponent() {
     setIsUploaded(true);
     setChat([]);
 
-    setAlert({ type: "success", message: "File uploaded successfully!" });
+    setAlert({ type: "custom-alert success", message: "File uploaded successfully!" });
     setTimeout(() => setAlert(null), 3000);
   };
+
 
   const handleAskAI = async () => {
     if (!query) return;
@@ -85,7 +75,8 @@ function UploadComponent() {
         insight: result.insight,
         suggestion: result.suggestion,
         labels: result.labels,
-        values: result.values
+        values: result.values,
+        chartType: result.chartType
       }
     ]);
 
@@ -93,43 +84,63 @@ function UploadComponent() {
     setQuery("");
   };
 
+
   const lastAI = chat.findLast(msg => msg.type === "ai");
 
-  const aiChartData = lastAI?.labels?.map((label, i) => ({
+  const aiChartData = (lastAI?.labels || []).map((label, i) => ({
     name: label,
-    value: lastAI.values[i]
-  })) || [];
-
-  const fullChartData = data.map(item => ({
-    name: item.product || item.name || "Item",
-    value: (Number(item.price) || 0) * (Number(item.quantity) || 1)
+    value: Number(lastAI?.values?.[i]) || 0
   }));
+
+
+  const getNumericColumns = (row) =>
+    Object.keys(row).filter(key => !isNaN(row[key]) && row[key] !== "");
+
+  const fullChartData = data.map((item, index) => {
+    const keys = Object.keys(item);
+    const labelKey = keys[0];
+    const numericKeys = getNumericColumns(item);
+    const valueKey = numericKeys[0];
+
+    return {
+      name: item[labelKey] || `Item ${index + 1}`,
+      value: Number(item[valueKey]) || 0
+    };
+  });
+
+
+  const displayData = aiChartData.length > 0 ? aiChartData : fullChartData;
+
   useEffect(() => {
-    chatEndRef.current?.scrollIntoView({
-      behavior: "smooth",
-      block: "nearest"
-    });
+    if (chatBoxRef.current) {
+      chatBoxRef.current.scrollTop = chatBoxRef.current.scrollHeight;
+    }
   }, [chat]);
 
   return (
+    <div className="container py-4">
 
-    <div className="container py-4 " >
+      {/* ALERT */}
       {alert && (
         <div className={`custom-alert ${alert.type}`}>
           {alert.message}
         </div>
       )}
+      {/* TITLE */}
+      <h1 className="text-center mb-4">
+        <i className="fa-solid fa-robot me-2" style={{ color: "blue" }}></i>
+        <span style={{ color: "blue" }}>AI</span>Dashboard
+      </h1>
 
-      <h1 className="text-center mb-4"><i className="fa-brands fa-bots" style={{ color: "blue", marginRight: "18px" }}></i><span className="Ai">AI</span>Dashboard</h1>
-
-      {/* Upload */}
-      <div className="card p-3 mb-3 shadow-sm ">
+      {/* UPLOAD */}
+      <div className="card p-3 mb-3 shadow-sm">
         <input
           type="file"
           className="form-control mb-2"
           onChange={(e) => setFile(e.target.files[0])}
         />
         <button className="btn btn-info" onClick={handleUpload}>
+          <i className="fa-solid fa-upload me-1"></i>
           Upload CSV
         </button>
       </div>
@@ -137,27 +148,29 @@ function UploadComponent() {
       {isUploaded && (
         <div className="row">
 
-          {/*ai-chat*/}
-          <div className="col-md-5 ai-chart">
-            <div className="card shadow-sm chat-box">
+          {/* CHAT */}
 
-              <div className="chat-messages">
+          <div className="col-md-5">
+
+            <div className="card shadow-sm">
+
+              <div ref={chatBoxRef} className="p-2" style={{ height: "450px", overflowY: "auto" }}>
                 {chat.map((msg, i) => (
-                  <div key={i} className={`bubble ${msg.type}`}>
+                  <div key={i} className="mb-2">
+                    <strong>{msg.type === "user" ? "You" : "AI"}:</strong>
                     <p>{msg.text}</p>
                     {msg.insight && <small>{msg.insight}</small>}
                     {msg.suggestion && (
-                      <small> <br/><i class="fa-regular fa-lightbulb idea"></i>{msg.suggestion}</small>
+                      <small className="text-success">
+                        <br />
+                        <i className="fa-regular fa-lightbulb me-1"></i>
+                        {msg.suggestion}
+                      </small>
                     )}
                   </div>
                 ))}
+                {loading && <p>Loading...</p>}
 
-                {loading && (
-                  <div className="bubble ai">
-                    <div className="spinner-border text-primary"></div>
-                  </div>
-                )}
-                <div ref={chatEndRef}></div>
               </div>
 
               <div className="p-2 border-top d-flex">
@@ -167,116 +180,153 @@ function UploadComponent() {
                   onChange={(e) => setQuery(e.target.value)}
                   placeholder="Ask anything..."
                 />
-                <button
-                  className="btn btn-primary"
-                  onClick={handleAskAI}
-                >
-                  <i class="fa-solid fa-paper-plane"></i>
-                  Send
+                <button className="btn btn-primary ms-2" onClick={handleAskAI}>
+                  <i className="fa-solid fa-paper-plane"></i>
                 </button>
               </div>
 
             </div>
           </div>
 
-          {/*right side*/}
-          <div className="col-md-7 right-panel">
+          {/* RIGHT SIDE */}
+          <div className="col-md-7">
 
-            {/*AI-chart*/}
+            {/* AI CHART */}
+
             <div className="card p-3 mb-3 shadow-sm text-center">
-              <h5><span className="Ai"> AI</span> Chart</h5>
+              <h5><i className="fa-solid fa-chart-simple me-1" style={{ color: "blue" }}></i>AI Chart</h5>
 
-              <div>
-                <div style={{ width: `${aiChartData.length * 80}px`, height: "400px" }}>
+              {displayData.length === 0 && <p>No chart data</p>}
 
-                  <BarChart
-                    width={aiChartData.length * 80}
-                    height={400}
-                    data={aiChartData}
-                  >
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
-                    <Bar dataKey="value" fill="#121212" />
-                  </BarChart>
+              {displayData.length > 0 && (
+                <div style={{ overflowX: "auto" }}>
+                  <div style={{ width: Math.max(displayData.length * 120, 400) }}>
 
+                    {/* BAR */}
+                    {(!lastAI?.chartType || lastAI.chartType === "bar") && (
+                      <BarChart width={Math.max(displayData.length * 120, 400)} height={300} data={displayData}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis
+                          dataKey="name"
+                          interval={0}
+                          angle={-30}
+                          textAnchor="end"
+                        />
+                        <YAxis />
+                        <Tooltip />
+                        <Bar dataKey="value" fill="#007bff" />
+                      </BarChart>
+                    )}
+
+                    {/* PIE */}
+                    {lastAI?.chartType === "pie" && (
+                      <PieChart width={400} height={300}>
+                        <Pie data={displayData} dataKey="value">
+                          {displayData.map((_, i) => (
+                            <Cell key={i} fill={COLORS[i % COLORS.length]} />
+                          ))}
+                        </Pie>
+                        <Tooltip />
+                      </PieChart>
+                    )}
+
+                    {/* LINE */}
+                    {lastAI?.chartType === "line" && (
+                      <LineChart width={Math.max(displayData.length * 120, 400)} height={300} data={displayData}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="name" interval={0} angle={-30} textAnchor="end" />
+                        <YAxis />
+                        <Tooltip />
+                        <Line dataKey="value" stroke="#007bff" strokeWidth={3} />
+                      </LineChart>
+                    )}
+
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
-            {/*btn*/}
-            <div className="d-flex justify-content-center gap-2 mb-3">
+
+            {/* BUTTONS */}
+            <div className="d-flex gap-2 mb-3">
               <button className="btn btn-info" onClick={() => setShowBar(!showBar)}>
-                <span className="show">Show</span>Bar Chart
+                <i className="fa-solid fa-chart-simple me-1"></i> Show Bar
               </button>
-              <button className="btn btn-info" onClick={() => setShowPie(!showPie)}>
-                 <span className="show">Show</span>Pie Chart
-              </button>
+              <button
+                className="btn btn-info"
+                onClick={() => {
+                  setShowPie(true);
+
+                  setTimeout(() => {
+                    pieRef.current?.scrollIntoView({ behavior: "smooth" });
+                  }, 100);
+                }}
+              ><i class="fa-solid fa-chart-pie me-1"></i>Show Pie</button>
               <button className="btn btn-info" onClick={() => setShowTable(!showTable)}>
-                 <span className="show">Show</span>Table
+                <i className="fa-solid fa-table me-1" ></i>Show Table
               </button>
             </div>
 
-            {/*bar*/}
+            {/* DYNAMIC BAR */}
             {showBar && (
-              <div className="card p-3 mb-3 shadow-sm text-center">
-                <h5><i class="fa-solid fa-chart-simple" style={{ color: "blue" }}></i>Bar chart</h5>
-                <ResponsiveContainer width="100%" height={250}>
-                  <BarChart data={fullChartData}>
-                    <XAxis dataKey="name" />
-                    <YAxis />
-                    <Tooltip />
+              <ResponsiveContainer width="100%" height={250}>
+                <BarChart data={displayData}>
+                  <XAxis
+                    dataKey="name"
+                    interval={Math.ceil(displayData.length / 10)} // 🔥 show only some labels
+                    angle={-30}
+                    textAnchor="end"
+                    tick={{ fontSize: 10 }}
+                  />
+                  <YAxis />
+                  <Tooltip />
 
-                    <Bar dataKey="value">
-                      {fullChartData.map((entry, index) => (
-                        <Cell key={index} fill={COLORS[index % COLORS.length]} />
-                      ))}
-                    </Bar>
-
-                  </BarChart>
-                </ResponsiveContainer>
-              </div>
+                  <Bar dataKey="value">
+                    {displayData.map((_, i) => (
+                      <Cell
+                        key={i}
+                        fill={
+                          aiChartData.length > 0
+                            ? "#007bff"
+                            : COLORS[i % COLORS.length]
+                        }
+                      />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
             )}
 
-            {/*pie*/}
+            {/* DYNAMIC PIE */}
             {showPie && (
-              <div className="card p-3 mb-3 shadow-sm text-center">
-                <h5><i class="fa-solid fa-chart-pie" style={{ color: "blue" }}></i>Pie Chart</h5>
-                <ResponsiveContainer width="100%" height={250}>
-                  <PieChart>
-                    <Pie data={fullChartData} dataKey="value" nameKey="name">
-                      {fullChartData.map((_, i) => (
-                        <Cell key={i} fill={COLORS[i % COLORS.length]} />
-                      ))}
-                    </Pie>
-                    <Tooltip />
-                  </PieChart>
-                </ResponsiveContainer>
-              </div>
+             
+              <ResponsiveContainer width="100%" height={250}>
+                <PieChart>
+                  <Pie data={displayData} dataKey="value">
+                    {displayData.map((_, i) => (
+                      <Cell key={i} fill={COLORS[i % COLORS.length]} />
+                    ))}
+                  </Pie>
+                  <Tooltip />
+                </PieChart>
+              </ResponsiveContainer>
             )}
-
+           
           </div>
         </div>
       )}
 
       {/* TABLE */}
-      {showTable && (
-        <div className="card p-3 mt-4 shadow-sm">
-          <h5 className="table"><i class="fa-solid fa-table" style={{ color: "blue" }}></i>Table</h5>
+      {showTable && data.length > 0 && (
+        <div className="card p-3 mt-3">
+          <h5><i className="fa-solid fa-table me-1"></i>Table</h5>
           <table className="table table-striped text-center">
             <thead>
-              <tr>
-                {Object.keys(data[0]).map((k) => (
-                  <th key={k}>{k}</th>
-                ))}
-              </tr>
+              <tr>{Object.keys(data[0]).map(k => <th key={k}>{k}</th>)}</tr>
             </thead>
             <tbody>
               {data.map((row, i) => (
                 <tr key={i}>
-                  {Object.values(row).map((v, j) => (
-                    <td key={j}>{v}</td>
-                  ))}
+                  {Object.values(row).map((v, j) => <td key={j}>{v}</td>)}
                 </tr>
               ))}
             </tbody>

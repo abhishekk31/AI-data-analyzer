@@ -1,7 +1,7 @@
 import React from 'react'
 import img1 from '../assets/ai-use.jpg'
 import img2 from '../assets/ai-bar-chart.jpg'
-import img3 from '../assets/ai-chat.jpg'
+import img3 from '../assets/tables.png'
 import img4 from '../assets/pie-chart.jpg'
 import './Card.css'
 
@@ -41,9 +41,9 @@ export default function Card() {
           <div className="card modern-card h-100 text-center">
             <img src={img3} className="card-img-top card-img" alt="chart" />
             <div className="card-body">
-              <h5 className="card-title">AI Dynamic Bar Charts</h5>
+              <h5 className="card-title">Table</h5>
               <p className="card-text">
-                Just ask a question and the bar chart changes automatically. Compare values, explore trends, and get answers visually without manual work.
+                Upload your file to view structured data in a clean table format. Easily explore, analyze, and visualize your dataset.
               </p>
             </div>
           </div>

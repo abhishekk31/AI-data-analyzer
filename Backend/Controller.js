@@ -107,19 +107,25 @@ Rules:
 
     let output = aiData?.choices?.[0]?.message?.content || "{}";
 
-    let parsed;
-    try {
-      parsed = JSON.parse(output);
-    } catch (e) {
-      parsed = {
-        answer: output,
-        chartType: "none",
-        labels: [],
-        values: [],
-        insight: "",
-        suggestion: ""
-      };
-    }
+// ✅ CLEAN AI RESPONSE (VERY IMPORTANT)
+output = output.replace(/```json|```/g, "").trim();
+
+let parsed;
+
+try {
+  parsed = JSON.parse(output);
+} catch (e) {
+  console.log("Parse error:", output);
+
+  parsed = {
+    answer: output,
+    chartType: "none",
+    labels: [],
+    values: [],
+    insight: "",
+    suggestion: ""
+  };
+}
 
     return res.json({
       success: true,

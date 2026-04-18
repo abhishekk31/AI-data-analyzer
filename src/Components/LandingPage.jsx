@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./LandingPage.css";
-import bgvideo from "../assets/Bakgroundv.mp4.mp4"
+import bgvideo from "../assets/bv.mp4.mp4"
 import { useNavigate } from "react-router-dom";
 
 
