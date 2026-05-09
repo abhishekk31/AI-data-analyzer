@@ -2,6 +2,7 @@ import fs from "fs";
 import Papa from "papaparse";
 import dotenv from "dotenv";
 import { GoogleGenAI } from "@google/genai";
+import axios from "axios";
 
 
 dotenv.config();
@@ -34,6 +35,7 @@ export const uploadFile = (req, res) => {
 //ai
 export const handleAIQuery = async (req, res) => {
   try {
+    
     const { query, data } = req.body;
 
     if (!data?.length) {
@@ -90,20 +92,29 @@ Rules:
 `;
 
    
-    const aiRes = await fetch("https://api.groq.com/openai/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${process.env.GROKEY}`,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        model: "llama-3.1-8b-instant",
-        messages: [{ role: "user", content: prompt }],
-        temperature: 0.2
-      })
-    });
+  const aiRes = await axios.post(
+  "https://api.groq.com/openai/v1/chat/completions",
+  {
+    model: "llama-3.1-8b-instant",
+    messages: [
+      {
+        role: "user",
+        content: prompt
+      }
+    ],
+    temperature: 0.2
+  },
+  {
+    headers: {
+      Authorization: `Bearer ${process.env.GROKEY}`,
+      "Content-Type": "application/json"
+    }
+  }
+);
 
-    const aiData = await aiRes.json();
+const aiData = aiRes.data;
+
+ 
 
     let output = aiData?.choices?.[0]?.message?.content || "{}";
 
@@ -138,12 +149,9 @@ try {
       suggestion: parsed.suggestion
     });
 
-  } catch (err) {
-    console.error("AI ERROR:", err);
-
-    return res.status(500).json({
-      success: false,
-      error: "Something went wrong"
-    });
-  }
-};
+  }catch (err) {
+  return res.status(500).json({
+    success: false,
+    error: err.message
+  });
+  }}

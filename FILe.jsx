@@ -4,7 +4,6 @@ import {
   PieChart, Pie, Cell, ResponsiveContainer,
   LineChart, Line
 } from "recharts";
-import './Fileui.css';
 
 /* ── Gemini brand tokens ─────────────────────────────── */
 const G_BLUE   = "#4285F4";
@@ -455,41 +454,14 @@ function UploadComponent() {
     value: Number(lastAI?.values?.[i]) || 0
   }));
   const getNumericColumns = (row) =>
-  Object.keys(row).filter(
-    key => !isNaN(row[key]) && row[key] !== ""
-  );
-
-const fullChartData = data.map((item, index) => {
-
-  // Ignore ID columns
-  const keys = Object.keys(item).filter(
-    key =>
-      !["sr", "srno", "sr_no", "id", "product_id"].includes(
-        key.toLowerCase()
-      )
-  );
-
-  // Use first text column as chart label
-  const labelKey = keys.find(
-    key => isNaN(item[key]) && item[key] !== ""
-  );
-
-  // Use first numeric column as value
-  const numericKeys = getNumericColumns(item);
-  const valueKey =
-  numericKeys.find(key =>
-    key.toLowerCase().includes("profit")
-  ) ||
-  numericKeys.find(key =>
-    key.toLowerCase().includes("quantity")
-  ) ||
-  numericKeys[0];
-
-  return {
-    name: item[labelKey] || `Item ${index + 1}`,
-    value: Number(item[valueKey]) || 0
-  };
-});
+    Object.keys(row).filter(key => !isNaN(row[key]) && row[key] !== "");
+  const fullChartData = data.map((item, index) => {
+    const keys = Object.keys(item);
+    const labelKey = keys[0];
+    const numericKeys = getNumericColumns(item);
+    const valueKey = numericKeys[0];
+    return { name: item[labelKey] || `Item ${index + 1}`, value: Number(item[valueKey]) || 0 };
+  });
   const displayData = aiChartData.length > 0 ? aiChartData : fullChartData;
 
   const chartType = lastAI?.chartType || activeChartTab;
@@ -703,7 +675,7 @@ const fullChartData = data.map((item, index) => {
                 <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
                   <div style={{ width: 32, height: 32, borderRadius: "50%", background: `linear-gradient(135deg, ${G_BLUE}, ${G_PURPLE})`, display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontSize: 15 }}>✦</div>
                   <div>
-                    <p style={{ fontSize: 14, fontWeight: 600, color: "#202124" }}>Analytica AI</p>
+                    <p style={{ fontSize: 14, fontWeight: 600, color: "#202124" }}>Gemini AI</p>
                     <p style={{ fontSize: 11, color: G_GREEN }}>● Online</p>
                   </div>
                 </div>

@@ -1,0 +1,401 @@
+Product_ID,Product_Name,Category,Quantity_Sold,Cost_Price,Selling_Price,Total_Profit,Supplier,City,Sale_Date
+P0001,Pencil Assume,Art Supplies,142,91.44,227.44,19312.0,Jenkins-Cruz,New Bradleyland,2024-06-12
+P0002,Highlighter Government,Office,163,61.21,83.93,3703.36,"Williams, Brown and Shaw",West Caitlinshire,2025-07-22
+P0003,Highlighter Stand,School,445,82.15,179.69,43405.3,Martin LLC,West Michele,2025-11-26
+P0004,Highlighter Brother,Stationery,142,81.36,156.16,10621.6,Mendoza-Carter,Tracytown,2024-07-08
+P0005,Pen Receive,Office,290,85.84,122.3,10573.4,Murphy PLC,Andersonside,2026-02-07
+P0006,Sketchbook Language,Art Supplies,66,179.61,434.97,16853.76,"Stokes, Wright and Wong",Watkinsfurt,2025-11-14
+P0007,Stapler They,School,495,103.38,247.93,71552.25,"Jones, Newton and Jackson",Lake Melissachester,2024-10-29
+P0008,Paint Brush Business,School,365,6.39,11.09,1715.5,"Hudson, Clark and Sherman",North Patrick,2025-06-14
+P0009,Backpack Star,Stationery,150,115.7,196.97,12190.5,"Nelson, Morrison and Clarke",West Andreaburgh,2026-04-23
+P0010,Sharpener Us,School,72,178.09,386.17,14981.76,Smith and Sons,New Victoriaville,2025-09-05
+P0011,Eraser Should,Stationery,179,141.37,253.09,19997.88,"Robertson, Espinoza and Hogan",West Robertfurt,2025-01-10
+P0012,Water Bottle Across,Art Supplies,200,175.23,254.51,15856.0,Flores-Elliott,Ashleyport,2025-01-28
+P0013,Eraser Heart,Office,328,94.32,196.37,33472.4,Sullivan-Rodriguez,East Diane,2024-09-07
+P0014,Notebook Treatment,Office,469,57.26,131.22,34687.24,White Ltd,Ramirezchester,2025-04-22
+P0015,Stapler Shake,Art Supplies,439,10.56,21.98,5013.38,"Esparza, Andrade and Dennis",New Erin,2024-10-18
+P0016,Marker Effect,School,137,30.48,71.42,5608.78,Clements-Sawyer,Christensenview,2024-11-11
+P0017,Pen Board,Art Supplies,241,119.6,261.51,34200.31,Shaw PLC,Aaronside,2024-06-04
+P0018,Notebook In,Stationery,242,122.11,151.58,7131.74,"Macias, Young and Collins",Port Evelynfurt,2025-08-28
+P0019,Highlighter Voice,School,362,194.15,238.78,16156.06,Allison Inc,Harrisonshire,2025-10-30
+P0020,Pencil Car,Stationery,189,53.9,67.69,2606.31,Soto Inc,East Christineborough,2024-06-28
+P0021,Glue Industry,School,207,85.36,189.43,21542.49,Smith-Carpenter,East Lisaton,2024-07-03
+P0022,Backpack Baby,Art Supplies,475,195.92,311.95,55114.25,"Castillo, Watson and Smith",Hartside,2024-08-09
+P0023,Stapler Say,Stationery,305,85.25,212.37,38771.6,Garner-Phillips,Brandtville,2024-11-29
+P0024,Eraser Edge,Art Supplies,310,47.88,106.68,18228.0,Perez Group,Houstonfort,2026-05-02
+P0025,Desk Lamp Article,Stationery,27,108.94,216.17,2895.21,Weaver PLC,North Jessicahaven,2024-09-10
+P0026,Notebook War,School,20,177.73,359.02,3625.8,Watson Group,Zacharyhaven,2024-10-16
+P0027,Pencil Less,School,171,62.76,103.71,7002.45,"Orozco, Brown and Dean",Owenstown,2025-12-09
+P0028,Tape Section,Office,344,40.0,86.82,16106.08,Castaneda and Sons,Port Alexander,2025-04-30
+P0029,Pen Live,Art Supplies,199,32.4,50.04,3510.36,Haynes LLC,Smithport,2026-03-07
+P0030,Marker Tree,School,137,155.13,234.86,10923.01,Miller LLC,Port Christopherstad,2024-05-27
+P0031,Stapler Thing,Art Supplies,393,8.72,16.82,3183.3,Lopez-Garza,Gillshire,2024-06-26
+P0032,Folder If,School,245,43.3,100.33,13972.35,"Frazier, Hall and Green",Hayleystad,2026-02-21
+P0033,Desk Lamp National,School,51,192.05,390.06,10098.51,Gonzales-Gordon,Roachside,2025-01-27
+P0034,Water Bottle Next,Art Supplies,455,130.69,214.2,37997.05,"Rodgers, Peters and Brown",Matthewfort,2026-01-19
+P0035,Ruler Idea,Office,208,74.02,117.26,8993.92,Moore-Simmons,South Amy,2025-06-25
+P0036,Glue Budget,School,156,152.61,334.68,28402.92,Hernandez-James,Roseview,2025-04-05
+P0037,Marker Popular,Stationery,136,113.41,235.27,16572.96,Jones-Richards,Simpsonstad,2025-10-19
+P0038,Marker Show,Stationery,272,71.8,138.11,18036.32,Andrews Group,Dustinmouth,2025-12-26
+P0039,Marker Fear,Stationery,199,193.61,306.55,22475.06,Henderson PLC,Lake Robert,2025-09-29
+P0040,Scissors Difference,School,162,105.11,134.42,4748.22,Hardin-Roberts,South Kevinfort,2025-06-27
+P0041,Desk Lamp Compare,Office,167,7.55,14.99,1242.48,Hines-Rogers,Lake Gabrielleland,2024-06-30
+P0042,Sketchbook Anything,Office,23,196.07,277.0,1861.39,"Peterson, Deleon and Thomas",North Kenneth,2024-05-13
+P0043,Glue Scientist,Office,237,123.18,139.06,3763.56,Ramirez-Mason,Mcphersonfort,2024-06-21
+P0044,Calculator Concern,Art Supplies,124,87.47,200.46,14010.76,Schwartz-Jones,West Jessica,2026-02-23
+P0045,Tape Note,Office,375,92.91,137.95,16890.0,Morales-Davis,Harrisside,2025-08-11
+P0046,Stapler Keep,Art Supplies,268,176.34,324.46,39696.16,Rogers Inc,Poolefurt,2024-12-18
+P0047,Sketchbook Rule,School,342,196.66,320.94,42503.76,"House, Harris and Grant",East Victoriastad,2024-10-31
+P0048,Notebook Able,Office,306,60.94,72.64,3580.2,"Ramirez, Navarro and Boyd",New Derek,2025-12-11
+P0049,Calculator Structure,Art Supplies,270,98.84,149.47,13670.1,Howard-Hall,Tuckerville,2025-03-11
+P0050,Notebook Law,Stationery,125,100.57,182.9,10291.25,Wilson and Sons,Michelleville,2026-02-01
+P0051,Tape Simple,Stationery,86,13.68,32.36,1606.48,"Cook, Jenkins and King",North Samanthashire,2026-03-24
+P0052,Paint Brush Left,School,308,149.74,199.99,15477.0,Henderson-Moore,North Joseph,2025-04-09
+P0053,Eraser Eight,Office,82,54.02,71.5,1433.36,"Johnson, Ramos and Alvarez",South James,2025-11-02
+P0054,Ruler Cell,School,143,132.19,198.06,9419.41,Brown LLC,East Mariah,2025-10-13
+P0055,Backpack Take,Art Supplies,427,60.57,121.0,25803.61,"Farmer, Brown and Hill",Michaelborough,2025-11-27
+P0056,Scissors Benefit,Stationery,311,117.82,172.48,16999.26,"Dominguez, Conner and Vasquez",Lake Jim,2025-06-22
+P0057,Calculator Say,Office,197,70.65,175.68,20690.91,Mason-Miller,Port Shelia,2026-04-10
+P0058,Water Bottle Difficult,Office,21,149.9,188.49,810.39,"Rodriguez, Welch and Cooper",North Garyside,2024-05-17
+P0059,Sketchbook Few,Art Supplies,274,69.94,95.36,6965.08,"Alvarado, Richardson and Roberts",Rebeccaton,2024-06-25
+P0060,Calculator Worry,School,21,82.12,104.26,464.94,Parsons-Mitchell,Holtside,2024-12-11
+P0061,Backpack Whom,School,249,134.47,155.92,5341.05,Brown-Lawrence,Scottberg,2024-08-27
+P0062,Water Bottle Subject,Office,123,11.81,27.42,1920.03,"Fernandez, Christian and Hansen",Lake Jasonbury,2025-01-11
+P0063,Notebook Gun,Stationery,244,18.06,40.52,5480.24,"Williams, Santos and Barnett",East Zacharyton,2025-11-18
+P0064,Notebook Fire,Office,92,46.95,82.51,3271.52,"Miller, Hoffman and Wilson",Whiteberg,2025-09-07
+P0065,Calculator Available,School,142,181.88,206.17,3449.18,Scott PLC,South Melissachester,2026-01-31
+P0066,Stapler Mouth,School,99,97.01,190.28,9233.73,Pugh Ltd,Port Williamtown,2025-11-09
+P0067,Calculator Indeed,School,493,180.48,403.9,110146.06,Brown PLC,Andrewhaven,2024-09-13
+P0068,Sketchbook Evidence,Stationery,18,191.05,224.26,597.78,"Ramirez, Smith and Lowery",Emilyton,2025-08-11
+P0069,Pencil See,School,458,154.73,342.87,86168.12,Woods-Mitchell,East Nathanielport,2025-11-21
+P0070,Notebook My,Stationery,230,94.72,209.82,26473.0,Rodgers LLC,Lake Nathanielmouth,2024-12-15
+P0071,Crayons Against,Stationery,366,93.45,200.38,39136.38,Nash-Hendrix,Donnaton,2026-03-03
+P0072,Water Bottle Receive,Office,345,85.04,194.58,37791.3,Wilson-Powell,Edwardston,2025-08-15
+P0073,Paint Brush Meet,School,445,55.67,102.71,20932.8,"Webb, Simpson and Ford",Gallagherborough,2025-01-21
+P0074,Marker Report,Stationery,20,163.79,339.14,3507.0,Castaneda-Bell,Earlstad,2025-07-31
+P0075,Marker Enjoy,Art Supplies,275,186.61,352.93,45738.0,Parker-Deleon,West Judith,2025-12-18
+P0076,Notebook Stand,School,354,9.77,20.84,3918.78,"Marshall, Wright and Phelps",East Catherine,2025-12-08
+P0077,Pen Collection,School,486,104.8,190.12,41465.52,Schneider-Diaz,Janetville,2024-10-19
+P0078,Marker Coach,Stationery,61,12.74,26.62,846.68,Allison Ltd,Ruizside,2024-08-13
+P0079,Water Bottle Letter,Art Supplies,9,184.55,373.27,1698.48,Skinner Ltd,East Rebecca,2025-08-17
+P0080,Sketchbook Happen,Stationery,101,90.54,203.16,11374.62,"Wagner, Ray and Bell",Clarkville,2025-11-22
+P0081,Tape Character,Art Supplies,388,115.22,205.3,34951.04,Rhodes-Lucas,Cannontown,2025-03-26
+P0082,Pencil Player,School,132,63.56,93.6,3965.28,Richardson-Bell,Morganport,2024-06-23
+P0083,Paint Brush Discussion,Office,421,155.5,305.05,62960.55,Hill-Gates,Smithfort,2025-01-27
+P0084,Eraser Officer,Office,31,134.86,334.31,6182.95,Obrien-Taylor,Campbellfurt,2024-11-13
+P0085,Glue Street,Art Supplies,186,139.43,193.32,10023.54,"Aguilar, Silva and Tate",Nicholasville,2025-05-16
+P0086,Pen Test,Stationery,116,123.68,266.74,16594.96,"Barnes, Johnson and Brown",Marshallville,2026-01-08
+P0087,Scissors Add,Art Supplies,333,127.46,252.15,41521.77,Ramos-Bright,Chelseafort,2025-08-11
+P0088,Tape Computer,Stationery,143,25.07,38.31,1893.32,Wilkins Inc,Tannerside,2025-07-11
+P0089,Notebook Her,Stationery,418,157.65,259.76,42681.98,"Cox, Vazquez and Camacho",Barrymouth,2024-08-07
+P0090,Folder Quickly,Art Supplies,152,160.95,371.41,31989.92,"Clark, Edwards and Keller",New Moniquetown,2025-03-03
+P0091,Backpack Recognize,School,63,39.45,59.2,1244.25,Lopez-Parker,Hughesburgh,2024-05-18
+P0092,Crayons Ok,Art Supplies,210,192.42,371.07,37516.5,Barnett-Johnson,Robinsonfort,2025-09-01
+P0093,Highlighter Foreign,Art Supplies,411,188.92,345.23,64243.41,Schwartz and Sons,Mooreview,2025-02-22
+P0094,Pencil Themselves,Art Supplies,331,62.59,83.9,7053.61,Perez Inc,West Joseph,2024-09-16
+P0095,Calculator Attorney,Art Supplies,389,86.5,166.12,30972.18,Mitchell-Spears,Kaylaville,2024-10-19
+P0096,Water Bottle List,Office,102,41.79,59.02,1757.46,"Johnson, Martinez and Terry",East Derek,2026-04-15
+P0097,Folder Then,School,125,155.1,373.34,27280.0,"Grimes, Chavez and Bailey",North Chadshire,2025-07-31
+P0098,Backpack Sound,Stationery,324,159.05,318.38,51622.92,Klein-Black,North Melindaville,2025-03-14
+P0099,Sketchbook Response,Office,432,179.05,423.47,105589.44,Yoder-Herrera,Lake Alexfort,2024-07-06
+P0100,Stapler Experience,School,71,49.85,78.29,2019.24,"Berger, Allen and Castro",Port Glendatown,2025-02-25
+P0101,Calculator Probably,Office,222,71.5,119.99,10764.78,Peters-Lopez,North Melaniechester,2024-07-02
+P0102,Notebook Tax,Stationery,186,143.48,341.85,36896.82,"Rodriguez, Baker and Munoz",Lake Craigview,2026-03-09
+P0103,Notebook Reason,Office,444,15.03,27.6,5581.08,Ellis-Elliott,South Peterfort,2024-05-28
+P0104,Ruler Option,Stationery,273,34.6,63.58,7911.54,Leach-Roberts,North Michelechester,2025-04-12
+P0105,Backpack Dinner,Art Supplies,39,182.77,245.19,2434.38,Simpson-Cantu,West Marissaton,2026-02-17
+P0106,Scissors Agent,School,471,137.37,339.87,95377.5,"Robinson, Price and Brown",Smithland,2025-07-03
+P0107,Tape Provide,Office,280,35.65,62.71,7576.8,Lopez-Jackson,Estradamouth,2024-09-02
+P0108,Stapler Painting,Office,8,136.39,249.18,902.32,Smith and Sons,East Rodney,2024-11-15
+P0109,Eraser Owner,Stationery,115,41.85,87.27,5223.3,Wade-Hayes,Terryville,2025-10-19
+P0110,Desk Lamp Weight,School,37,110.92,165.54,2020.94,Smith-Wilson,Mcmahonland,2026-03-25
+P0111,Notebook Camera,Office,363,38.06,74.72,13307.58,"Turner, Petty and Hernandez",Wilsonchester,2025-12-02
+P0112,Tape Class,School,64,44.55,69.66,1607.04,"Rollins, Walker and Kelly",Joshuaville,2025-01-15
+P0113,Water Bottle Field,Art Supplies,309,139.05,238.34,30680.61,Johnson-Brady,South Amytown,2025-01-08
+P0114,Scissors Cut,Stationery,486,62.63,102.05,19158.12,Kennedy PLC,Feliciaborough,2026-03-12
+P0115,Marker Purpose,School,173,198.77,300.5,17599.29,Edwards-Carter,Patriciachester,2024-10-13
+P0116,Scissors Evening,Art Supplies,345,154.74,182.36,9528.9,Simmons-Norton,Ericstad,2025-02-04
+P0117,Stapler Yourself,Art Supplies,64,80.6,158.22,4967.68,Wood-Combs,East Ebonyhaven,2025-10-21
+P0118,Glue Town,School,152,96.2,237.13,21421.36,"Velez, Walker and Ward",Port Lisafurt,2024-07-13
+P0119,Pencil Fast,School,185,20.01,33.95,2578.9,Warren-Carr,North Jenna,2024-07-30
+P0120,Sketchbook Argue,Stationery,469,141.28,204.8,29790.88,Singh-Clark,Jillville,2026-02-13
+P0121,Stapler Game,Art Supplies,115,159.57,182.73,2663.4,Lewis and Sons,South Makayla,2025-05-09
+P0122,Notebook Girl,Art Supplies,199,196.92,355.04,31465.88,"Patel, Zimmerman and Thompson",New Christophermouth,2025-09-07
+P0123,Pen Our,Art Supplies,200,6.71,13.92,1442.0,"Schwartz, Larson and Manning",Powellburgh,2026-04-15
+P0124,Highlighter Continue,Art Supplies,80,178.84,375.44,15728.0,Davis-Summers,Jimenezside,2024-11-18
+P0125,Highlighter Machine,Stationery,249,117.66,159.39,10390.77,Wells-Hernandez,Kathyborough,2025-07-07
+P0126,Ruler Dark,Art Supplies,364,73.07,158.13,30961.84,Parks PLC,New Loganberg,2024-12-14
+P0127,Eraser Stuff,Stationery,461,67.59,147.34,36764.75,Ortega and Sons,South Annaberg,2025-07-15
+P0128,Glue Really,Office,106,63.49,132.41,7305.52,Morgan-Nguyen,Port Kimberlybury,2025-07-24
+P0129,Calculator Serious,Art Supplies,134,123.42,249.35,16874.62,Graham-Schroeder,Lake Davidmouth,2025-09-23
+P0130,Pencil Attorney,Office,340,113.33,178.88,22287.0,Gillespie Ltd,Blackmouth,2024-09-16
+P0131,Water Bottle Cold,Art Supplies,35,31.24,55.89,862.75,Patterson Inc,Port Michaelmouth,2026-02-22
+P0132,Stapler Ball,Stationery,252,75.96,137.69,15555.96,"Ryan, Noble and Mann",Lake Bettyhaven,2024-08-28
+P0133,Scissors Any,School,277,177.34,399.07,61419.21,Elliott and Sons,Port Donnamouth,2025-12-28
+P0134,Desk Lamp Item,School,63,144.56,317.35,10885.77,"Woods, Williams and Mullins",Port Michelemouth,2025-08-30
+P0135,Notebook One,School,352,131.37,263.59,46541.44,Lee Inc,Port Taraport,2024-08-22
+P0136,Sharpener Building,School,214,126.09,172.62,9957.42,"Nicholson, Beltran and Patterson",South Jeffrey,2026-01-05
+P0137,Eraser Common,Office,186,153.33,305.2,28247.82,Barnett PLC,Lake Charles,2025-11-07
+P0138,Pencil Serve,Art Supplies,228,186.3,206.42,4587.36,Ochoa Inc,East Amberbury,2025-03-11
+P0139,Crayons Physical,Art Supplies,120,170.29,411.74,28974.0,"Garcia, Wilson and Huffman",Port Michellefurt,2025-11-08
+P0140,Folder Wind,Stationery,434,109.31,123.68,6236.58,"Reeves, Nelson and Ferguson",North Mark,2026-03-15
+P0141,Desk Lamp He,School,380,90.26,136.62,17616.8,Reed-Melton,Port Adam,2024-07-06
+P0142,Pen Mind,Stationery,110,179.56,388.11,22940.5,Mcclain and Sons,Jenniferton,2025-06-04
+P0143,Tape Mr,School,440,189.39,299.24,48334.0,Murphy Group,Higginsmouth,2026-05-06
+P0144,Eraser Professor,Office,203,37.5,83.52,9342.06,"Burns, Collins and Melton",West Jennifer,2026-04-03
+P0145,Folder Ever,School,104,105.38,201.9,10038.08,"Smith, Rush and Brooks",New Vanessamouth,2025-05-17
+P0146,Pen War,Office,287,10.2,13.08,826.56,Spencer Group,East Christyview,2025-01-01
+P0147,Ruler City,School,103,94.4,121.54,2795.42,Baker-Collins,Foxhaven,2026-04-09
+P0148,Pen Cost,Office,263,35.08,51.17,4231.67,Harrison LLC,Tylerstad,2024-06-26
+P0149,Highlighter Month,School,142,167.49,270.05,14563.52,"Ali, Wilkerson and Serrano",Charlestown,2025-10-06
+P0150,Calculator Church,Office,65,21.1,27.82,436.8,"Spence, Wright and Ball",East Kerri,2025-04-27
+P0151,Desk Lamp Particular,School,123,148.46,209.88,7554.66,Carter-Estrada,West Kellieland,2024-12-12
+P0152,Pen Discuss,Stationery,264,20.27,36.43,4266.24,"Oneill, Walker and Vasquez",Smithville,2025-11-21
+P0153,Desk Lamp Religious,School,64,93.48,199.44,6781.44,Mitchell Group,Oscarburgh,2025-05-27
+P0154,Marker Until,Stationery,63,133.42,275.53,8952.93,Golden Inc,South Lisa,2024-09-11
+P0155,Backpack Avoid,School,79,130.95,296.97,13115.58,Pierce PLC,Port Christopher,2026-04-29
+P0156,Ruler Store,Art Supplies,230,53.4,108.07,12574.1,Smith Ltd,Kennethmouth,2024-09-07
+P0157,Desk Lamp Time,School,45,8.36,13.33,223.65,"Fischer, Jenkins and Brown",Port Melissamouth,2025-09-19
+P0158,Folder Light,Stationery,103,45.77,70.82,2580.15,Smith-Mejia,Toddville,2024-07-22
+P0159,Sharpener State,Office,175,27.46,38.21,1881.25,"Ellis, Gallagher and Johns",Espinozamouth,2025-08-27
+P0160,Sharpener Matter,Office,118,172.53,234.03,7257.0,"Mejia, Alexander and Montoya",Port Stacey,2025-12-29
+P0161,Eraser Visit,Art Supplies,401,31.52,56.26,9920.74,Salinas LLC,Schwartzport,2025-12-15
+P0162,Desk Lamp Doctor,Office,171,81.39,146.63,11156.04,Martinez and Sons,South Margaret,2025-12-31
+P0163,Eraser Television,Stationery,263,101.02,129.74,7553.36,Park-George,Sandersside,2026-04-11
+P0164,Marker Method,Office,221,179.92,418.19,52657.67,Walsh Ltd,North Dillonville,2024-11-16
+P0165,Eraser Cold,Stationery,466,71.95,134.58,29185.58,Ballard-Wilson,Port Sharonfort,2025-07-26
+P0166,Tape Name,Office,221,49.6,73.29,5235.49,Odonnell-Combs,Port Melvin,2025-05-05
+P0167,Paint Brush Begin,Office,118,90.36,148.06,6808.6,"Murillo, Steele and Thompson",Jesusshire,2024-10-02
+P0168,Eraser Side,Office,456,81.31,171.86,41290.8,Guerrero Group,North Tina,2024-09-19
+P0169,Pencil Particularly,Stationery,431,158.6,306.03,63542.33,Graham Ltd,Taylorburgh,2025-06-24
+P0170,Sketchbook Decide,Office,497,19.04,24.71,2817.99,Floyd Ltd,Port Ashley,2025-03-26
+P0171,Calculator Expert,Office,448,10.62,24.15,6061.44,Phelps-Garza,Lopezville,2025-12-20
+P0172,Eraser Model,School,78,110.5,175.7,5085.6,"King, Gould and Perez",Lake Cheryl,2025-12-17
+P0173,Backpack Difference,Art Supplies,204,184.74,255.6,14455.44,Hurst Group,Evanstad,2025-03-08
+P0174,Scissors Sea,Office,149,124.99,298.22,25811.27,Armstrong Group,Andersonbury,2025-12-23
+P0175,Pencil Woman,Stationery,450,112.69,241.32,57883.5,Sanders Group,North Gregory,2024-08-24
+P0176,Sharpener Lay,Office,374,117.27,163.57,17316.2,"Taylor, Colon and Turner",Jamesmouth,2025-06-21
+P0177,Backpack Last,Stationery,71,75.62,170.09,6707.37,"Burns, Garcia and Solomon",Clintonville,2024-11-23
+P0178,Ruler Option,Art Supplies,480,104.14,228.38,59635.2,Mccoy Group,Richardsberg,2025-10-10
+P0179,Marker Remember,Art Supplies,69,173.35,420.82,17075.43,Morgan-Edwards,New Jaclynburgh,2026-03-16
+P0180,Folder War,School,247,21.25,39.75,4569.5,Davis-Taylor,Port Courtney,2024-12-21
+P0181,Pencil Plan,Art Supplies,107,162.65,273.96,11910.17,Spencer LLC,New Michael,2026-04-12
+P0182,Tape Street,Office,153,112.6,127.41,2265.93,Lowe LLC,New Michael,2025-05-13
+P0183,Scissors Great,Art Supplies,145,155.84,369.75,31016.95,Hendricks PLC,Harristown,2024-09-13
+P0184,Notebook Spring,Office,481,34.66,86.42,24896.56,Fisher PLC,Johnport,2026-02-22
+P0185,Pencil Money,Office,39,52.55,80.03,1071.72,Oliver-Young,Brandiland,2025-03-08
+P0186,Crayons Fine,School,54,140.73,306.47,8949.96,"Rogers, Gonzalez and Dillon",Jasonburgh,2025-06-25
+P0187,Pen Body,Office,467,80.41,187.06,49805.55,Brown and Sons,Heatherfurt,2026-03-06
+P0188,Backpack Go,Office,48,17.63,39.25,1037.76,Howard-Bradley,North Michael,2025-01-14
+P0189,Paint Brush Safe,School,98,102.82,141.07,3748.5,"Hawkins, Houston and West",Jonesmouth,2025-03-29
+P0190,Water Bottle Continue,Art Supplies,62,117.23,284.03,10341.6,Vincent LLC,East Gerald,2025-08-15
+P0191,Sketchbook Window,School,174,26.9,64.28,6504.12,"Torres, Rivas and Chen",South Ellen,2024-07-31
+P0192,Glue Civil,School,69,195.4,254.91,4106.19,Jimenez-Mora,Mariefurt,2024-10-30
+P0193,Water Bottle Lot,Stationery,279,149.93,209.12,16514.01,Wright Group,New Bruceport,2024-08-03
+P0194,Marker Same,School,295,121.97,226.62,30871.75,Chambers-Davis,Bethchester,2025-12-26
+P0195,Scissors Floor,Office,133,196.3,480.39,37783.97,Foley Inc,Lake Mirandashire,2026-01-07
+P0196,Sharpener Write,Art Supplies,486,38.87,49.26,5049.54,Torres Inc,West Sarah,2025-01-20
+P0197,Backpack Hair,School,120,46.25,97.46,6145.2,"Smith, Jackson and Sanders",Kingberg,2026-05-03
+P0198,Backpack Toward,Stationery,74,42.13,98.94,4203.94,Francis LLC,Kennedyside,2025-01-31
+P0199,Marker Pay,Art Supplies,133,186.22,419.46,31020.92,Hayes-Wright,Michaelburgh,2025-03-09
+P0200,Desk Lamp Account,School,487,177.85,280.67,50073.34,"Evans, Frye and Cruz",North Heather,2025-01-21
+P0201,Desk Lamp Turn,School,272,139.99,330.47,51810.56,"Fisher, Thompson and Todd",Robertfurt,2026-01-21
+P0202,Scissors Example,Stationery,324,127.52,280.79,49659.48,"Watson, Davis and Barnes",South Melissa,2025-10-17
+P0203,Backpack Conference,Office,253,74.65,111.62,9353.41,Villa PLC,Dwaynestad,2024-08-15
+P0204,Folder Decide,Office,200,76.66,89.2,2508.0,Taylor-Willis,Jackfurt,2025-04-26
+P0205,Backpack Bad,School,5,10.01,11.38,6.85,Jenkins-Williamson,North Gregory,2025-12-21
+P0206,Notebook Choice,School,58,8.48,15.58,411.8,Thomas-Summers,Grayberg,2024-10-31
+P0207,Calculator Reduce,Stationery,76,17.64,35.81,1380.92,"Lewis, Wise and Chambers",Hernandezmouth,2025-12-02
+P0208,Pencil Along,Art Supplies,395,72.97,151.25,30920.6,Solomon-Jacobs,Coffeyside,2025-06-23
+P0209,Sharpener Minute,Stationery,279,52.54,83.99,8774.55,Zamora Inc,Port Kimberlytown,2025-04-24
+P0210,Desk Lamp Reduce,Art Supplies,428,63.14,80.5,7430.08,Perry Ltd,Richardbury,2024-06-12
+P0211,Desk Lamp Commercial,Art Supplies,346,174.35,420.69,85233.64,Rollins-Taylor,Perrymouth,2024-08-10
+P0212,Pencil Attack,Office,140,170.47,213.65,6045.2,Cervantes-Jackson,South Timothychester,2024-12-01
+P0213,Calculator Ability,Art Supplies,487,176.69,272.71,46761.74,"Herring, Rangel and Vazquez",West Christina,2025-07-21
+P0214,Glue Bad,School,117,54.62,107.11,6141.33,"Gilbert, Villa and Davis",Samuelfurt,2025-07-15
+P0215,Eraser Political,Art Supplies,435,137.42,318.59,78808.95,Mckee-Lee,Pamelatown,2026-04-08
+P0216,Paint Brush Amount,Art Supplies,278,117.1,191.12,20577.56,Bridges Group,Mayerstad,2025-07-28
+P0217,Crayons Trial,Office,389,47.78,89.69,16302.99,Torres-Wright,Martinville,2025-06-21
+P0218,Folder Significant,School,18,71.09,167.13,1728.72,Banks Inc,Joneschester,2026-02-23
+P0219,Backpack Save,Stationery,248,37.2,70.62,8288.16,Scott-Lewis,Hernandezview,2026-03-04
+P0220,Glue Source,School,255,93.34,195.23,25981.95,Maxwell and Sons,Lake Jamie,2024-08-20
+P0221,Ruler Increase,Stationery,245,159.46,295.99,33449.85,"Hernandez, Wall and Martinez",North Jasmine,2025-09-19
+P0222,Pencil Tonight,Art Supplies,28,92.14,164.28,2019.92,Garcia-Randolph,South Jaime,2024-08-19
+P0223,Pencil Republican,Stationery,461,170.42,302.7,60981.08,Hernandez Ltd,Mannchester,2025-03-24
+P0224,Desk Lamp Believe,Office,376,23.97,37.53,5098.56,Johnson and Sons,Dwayneport,2025-02-21
+P0225,Folder Various,Office,191,133.27,280.87,28191.6,"Gonzalez, Oneill and Knight",Lake Aaronborough,2024-07-22
+P0226,Desk Lamp Ball,Art Supplies,248,102.71,114.93,3030.56,"Mays, Johnson and Bennett",Port Ericberg,2024-12-07
+P0227,Sharpener Cut,Stationery,489,103.88,199.12,46572.36,Nichols Group,New Jessica,2026-02-14
+P0228,Scissors Risk,School,362,33.02,56.92,8651.8,Gilmore-Bauer,Bryantport,2026-04-12
+P0229,Glue Sense,School,200,144.3,274.49,26038.0,Ayala-Cohen,Hartmanmouth,2026-03-27
+P0230,Paint Brush Ball,Stationery,423,139.31,310.29,72324.54,"Maldonado, Phillips and Mueller",Gibsonside,2026-03-01
+P0231,Pencil Religious,Office,185,9.4,12.86,640.1,"Wright, Matthews and Walker",Aliciachester,2026-02-01
+P0232,Paint Brush Toward,Office,498,144.05,310.35,82817.4,Johnson-Harrison,North Amanda,2026-01-03
+P0233,Calculator Child,Art Supplies,376,108.88,177.28,25718.4,Lawson-Day,Ryanshire,2024-08-13
+P0234,Calculator How,School,146,12.71,28.6,2319.94,"Davidson, Carlson and Grant",West Tiffanyview,2024-10-19
+P0235,Backpack Him,Office,151,135.1,209.51,11235.91,Miller and Sons,Lauraton,2024-07-22
+P0236,Stapler Congress,Stationery,393,169.52,376.79,81457.11,"Rangel, Fitzpatrick and Nash",Caldwellshire,2025-03-22
+P0237,Pencil Performance,Art Supplies,259,30.81,75.45,11561.76,Allison-Robinson,Johnstonbury,2024-09-14
+P0238,Marker Hospital,School,207,190.36,396.33,42635.79,"Allen, Shepherd and Smith",East Kellie,2024-09-28
+P0239,Eraser Another,Office,70,74.11,100.66,1858.5,White-Patel,Lake Kevin,2025-01-24
+P0240,Sketchbook Tell,Art Supplies,255,144.28,164.84,5242.8,Lopez and Sons,New Christine,2025-06-12
+P0241,Pencil Detail,Stationery,266,22.0,54.12,8543.92,"Hall, Johnson and Soto",West Gavin,2025-10-01
+P0242,Backpack Seem,Art Supplies,495,85.67,106.89,10503.9,"Gregory, Gilbert and Roberts",Fullerview,2026-03-25
+P0243,Glue True,Art Supplies,32,98.05,187.45,2860.8,"Miller, Barber and Chang",East Jeffreyborough,2025-02-04
+P0244,Stapler Assume,School,440,182.4,264.57,36154.8,Harris Group,Brianside,2026-03-16
+P0245,Calculator Force,Office,113,163.23,299.7,15421.11,"Hughes, Ray and Davis",Lake Teresastad,2025-05-19
+P0246,Paint Brush Main,Art Supplies,376,191.9,274.49,31053.84,Lewis and Sons,Mejiamouth,2025-04-06
+P0247,Sharpener Night,Office,222,128.26,287.72,35400.12,Cuevas-Ramirez,Williamchester,2025-11-28
+P0248,Eraser Stage,Office,493,187.85,213.38,12586.29,Nguyen Inc,Perezville,2025-06-04
+P0249,Sharpener Father,Stationery,455,166.78,189.98,10556.0,Jones-Shah,Rebeccaside,2025-11-29
+P0250,Glue Recent,Art Supplies,303,89.06,204.32,34923.78,Jones Inc,East Diamond,2024-10-05
+P0251,Glue Be,School,232,94.34,182.21,20385.84,"Rose, Edwards and Ferguson",Port Stephenfort,2025-05-10
+P0252,Pen Western,Office,291,15.56,20.98,1577.22,Vargas PLC,South Garychester,2025-12-05
+P0253,Sketchbook Hit,Art Supplies,354,194.99,311.65,41297.64,"Brady, Smith and Spencer",South Jared,2025-04-09
+P0254,Calculator Impact,School,445,125.52,264.7,61935.1,Carlson Group,North Isabella,2025-11-01
+P0255,Pen Marriage,Office,143,188.23,271.84,11956.23,Wong Ltd,Zamoraton,2026-04-02
+P0256,Pen Tough,School,15,124.13,252.89,1931.4,Turner Ltd,Lake Michael,2025-04-28
+P0257,Crayons Past,Art Supplies,83,41.59,98.13,4692.82,Dougherty-Robinson,Lake Craigville,2026-01-02
+P0258,Pen Believe,School,488,34.77,39.91,2508.32,Johnson Group,West Joannaport,2025-12-26
+P0259,Notebook Join,Stationery,337,58.08,74.86,5654.86,"Jones, Williams and Madden",Whiteville,2024-12-30
+P0260,Stapler Leg,Office,475,85.35,174.03,42123.0,"Moses, Gutierrez and Hudson",Ramirezville,2025-10-16
+P0261,Ruler Position,Art Supplies,170,40.7,56.75,2728.5,Shaw PLC,West Seanberg,2025-08-17
+P0262,Paint Brush Subject,Office,405,113.97,134.67,8383.5,Ray-Robertson,West Wanda,2025-12-14
+P0263,Ruler Sound,Office,173,150.08,276.25,21827.41,Butler-Grimes,Lewisburgh,2025-11-12
+P0264,Ruler Scientist,Stationery,346,48.23,99.43,17715.2,Black Group,Port Mary,2024-06-30
+P0265,Calculator Authority,Stationery,52,150.44,315.34,8574.8,"Hernandez, Potter and Lynch",Sloanport,2025-09-10
+P0266,Highlighter Adult,Stationery,411,134.78,238.79,42748.11,Davis LLC,New Destinybury,2025-01-29
+P0267,Scissors There,Office,208,75.35,168.11,19294.08,Yates-Martin,Tonyshire,2025-07-28
+P0268,Water Bottle For,Office,204,121.85,220.84,20193.96,Kelly-Sanchez,Justinton,2024-10-19
+P0269,Paint Brush Air,Art Supplies,500,198.24,494.66,148210.0,Campbell-Jimenez,East Samantha,2025-05-31
+P0270,Folder Success,Office,245,53.95,65.94,2937.55,"Thompson, Bradley and Ruiz",Wilsonstad,2024-07-02
+P0271,Ruler Performance,Office,270,22.33,24.76,656.1,Myers Ltd,Jenkinston,2025-02-03
+P0272,Desk Lamp Course,Office,469,30.54,74.19,20471.85,Peterson-Adkins,Lake Christopherhaven,2025-09-16
+P0273,Crayons Coach,Office,499,89.27,206.42,58457.85,"Taylor, Watts and Turner",Lake Jonathanbury,2025-04-26
+P0274,Tape Over,School,34,93.68,203.57,3736.26,Navarro Inc,Acostastad,2025-12-21
+P0275,Glue Service,Stationery,229,20.82,36.79,3657.13,Morrison-Wilson,Adamsborough,2026-02-15
+P0276,Marker Could,Stationery,30,141.07,294.05,4589.4,Coleman-Morrison,Williefort,2026-02-28
+P0277,Water Bottle Than,Art Supplies,404,27.3,36.36,3660.24,"Jones, Johnson and Miller",West Jackie,2025-07-12
+P0278,Marker Time,School,480,138.63,254.28,55512.0,Thompson-Matthews,Kimberlymouth,2025-04-21
+P0279,Backpack Left,Art Supplies,56,14.81,16.59,99.68,Stark Inc,Coleville,2025-12-06
+P0280,Folder Either,Stationery,384,40.86,81.08,15444.48,Vaughn Ltd,North Janice,2025-11-14
+P0281,Scissors Phone,Office,368,159.91,196.32,13398.88,"Bennett, Dominguez and Brock",Scottfurt,2024-08-08
+P0282,Ruler President,Stationery,77,175.87,281.08,8101.17,"Spence, Ortiz and Jones",South Alejandra,2025-12-05
+P0283,Marker He,Art Supplies,24,184.47,431.46,5927.76,Stanley Ltd,New Lauraville,2026-03-21
+P0284,Backpack Walk,Stationery,334,11.15,15.99,1616.56,Gillespie PLC,Stuartstad,2024-06-26
+P0285,Tape Their,Stationery,311,95.3,206.85,34692.05,Rivers-Haney,Santiagomouth,2026-04-24
+P0286,Glue Box,Office,344,156.84,265.83,37492.56,Dean PLC,Chanland,2025-11-05
+P0287,Paint Brush Instead,Art Supplies,305,168.22,232.36,19562.7,Sherman Ltd,Barronhaven,2025-09-29
+P0288,Water Bottle The,School,369,135.14,174.83,14645.61,Johnson Ltd,Juliafurt,2024-05-31
+P0289,Pencil Most,Office,437,42.06,49.49,3246.91,"Miller, Malone and Watson",Lake Brandi,2025-10-09
+P0290,Marker Nice,Art Supplies,500,150.19,284.64,67225.0,White Ltd,Amyburgh,2025-01-02
+P0291,Folder Anything,Office,86,121.96,154.09,2763.18,Baker LLC,Kristinberg,2024-11-21
+P0292,Highlighter Expert,Stationery,54,14.15,23.23,490.32,"Anderson, Nunez and Jones",Lake Jameston,2025-12-21
+P0293,Pencil Goal,Office,466,197.12,395.49,92440.42,"Young, King and Owen",Cantrelltown,2025-06-02
+P0294,Marker Detail,Art Supplies,460,80.25,144.28,29453.8,Burns-Carter,Sarahside,2025-09-21
+P0295,Backpack Tough,Stationery,179,33.7,73.08,7049.02,Hancock PLC,Lake Jesse,2025-07-25
+P0296,Paint Brush Away,Stationery,366,125.24,150.04,9076.8,Gonzalez Ltd,West Janice,2026-03-07
+P0297,Pen It,Art Supplies,157,143.14,261.73,18618.63,Woodard Ltd,South Kelly,2026-04-09
+P0298,Pen Behavior,Art Supplies,359,165.49,192.58,9725.31,"Jackson, Jones and Jensen",Annabury,2024-08-03
+P0299,Notebook Almost,School,20,73.59,97.54,479.0,"Nelson, White and Richardson",Pittstown,2026-01-30
+P0300,Notebook So,Stationery,15,171.2,299.64,1926.6,Mahoney-Reilly,East Timothy,2024-08-04
+P0301,Eraser Guess,Art Supplies,431,76.25,166.33,38824.48,Fisher PLC,Anthonyburgh,2026-01-02
+P0302,Scissors Could,Art Supplies,168,83.63,93.2,1607.76,Moore Inc,Wendyburgh,2024-09-07
+P0303,Sharpener Someone,School,40,68.15,155.46,3492.4,"Garcia, Smith and Baldwin",North Priscilla,2025-04-07
+P0304,Crayons Subject,Office,400,134.03,317.85,73528.0,Bowers Inc,New Edward,2025-01-01
+P0305,Crayons Drive,Stationery,246,39.86,82.01,10368.9,"Cruz, Rubio and Arias",North Regina,2024-09-14
+P0306,Eraser Size,Art Supplies,83,98.54,201.62,8555.64,Rivers-Sosa,North Brianport,2025-04-28
+P0307,Eraser One,School,69,31.99,46.45,997.74,Wells Inc,North Joshuashire,2024-10-16
+P0308,Scissors Positive,School,211,168.05,222.59,11507.94,Hammond-Cohen,West Jonhaven,2025-03-03
+P0309,Water Bottle Professional,Art Supplies,452,83.59,106.52,10364.36,Williams-Barnes,New Mariastad,2026-03-12
+P0310,Notebook Professional,Stationery,245,23.26,46.72,5747.7,"Ryan, Wiggins and Thomas",Nathanielhaven,2025-02-27
+P0311,Scissors Reveal,School,10,125.75,220.8,950.5,Banks-Gordon,Bryanberg,2025-07-15
+P0312,Scissors Now,Stationery,313,69.82,151.51,25568.97,Moore Ltd,Shannonberg,2025-03-08
+P0313,Paint Brush Like,Stationery,165,46.61,80.84,5647.95,Lopez-Robinson,Griffithland,2025-03-05
+P0314,Scissors Daughter,Office,248,88.28,135.6,11735.36,Wright Inc,Garciaview,2025-05-15
+P0315,Ruler Clear,Office,181,35.52,63.94,5144.02,Patel-Adams,Annebury,2025-09-10
+P0316,Sketchbook Mean,Art Supplies,306,80.22,154.39,22696.02,Peterson-Combs,Bushstad,2025-05-01
+P0317,Paint Brush Around,Stationery,483,118.92,133.77,7172.55,"Robinson, Mccoy and Smith",Rogerstad,2025-03-03
+P0318,Sketchbook Performance,School,277,170.82,247.15,21143.41,Davis and Sons,New Christopherport,2025-07-23
+P0319,Stapler Mouth,School,391,26.93,67.17,15733.84,Jacobs Group,Lewisstad,2024-10-22
+P0320,Folder Another,Stationery,480,119.72,166.18,22300.8,Salazar Ltd,Garciafort,2026-03-01
+P0321,Marker Focus,Stationery,302,125.22,308.24,55272.04,"Silva, Allen and Powell",Matthewburgh,2024-11-01
+P0322,Desk Lamp Least,Office,247,10.11,20.97,2682.42,Sparks-Hanson,Lake Megan,2024-11-27
+P0323,Pencil Soon,School,311,23.51,57.57,10592.66,"Williams, Stevens and Buckley",Stephensonborough,2026-04-09
+P0324,Sketchbook Successful,Stationery,253,48.95,120.85,18190.7,Swanson LLC,Johnstonmouth,2024-05-09
+P0325,Desk Lamp Us,Stationery,469,32.52,36.21,1730.61,Fitzgerald-Jones,Lake Helenchester,2025-02-04
+P0326,Eraser Executive,Art Supplies,156,179.54,365.26,28972.32,"Hutchinson, Gentry and White",Danielleport,2026-01-29
+P0327,Eraser Either,Office,363,58.37,90.47,11652.3,"Farmer, Meyer and Johnson",South Roy,2026-04-01
+P0328,Crayons Wife,Stationery,190,181.02,409.47,43405.5,Frazier-Wade,Lake Andrewbury,2026-03-17
+P0329,Pen Yourself,Office,388,125.62,256.93,50948.28,"Patel, Chambers and Patel",New Selenaburgh,2025-01-30
+P0330,Sharpener Finally,Office,207,156.95,245.27,18282.24,Smith-Williams,Port Stephanie,2026-03-25
+P0331,Sketchbook Political,School,364,161.48,341.32,65461.76,Smith-Price,Thomasmouth,2026-04-09
+P0332,Crayons Candidate,School,139,185.38,348.78,22712.6,"Cuevas, Welch and Summers",Kingshire,2024-12-18
+P0333,Sketchbook Group,School,344,77.5,178.29,34671.76,Mcmahon Group,North Michaelborough,2025-06-12
+P0334,Calculator Speak,School,285,11.6,24.96,3807.6,Morgan-Warren,Port Debrachester,2024-08-13
+P0335,Pen Argue,School,483,26.8,42.35,7510.65,Davis Group,Williamport,2024-09-24
+P0336,Ruler Tonight,Office,284,24.62,32.94,2362.88,Gibbs-Joseph,East Bobby,2024-10-28
+P0337,Pencil Strong,Stationery,102,85.59,98.58,1324.98,Hansen LLC,Christophermouth,2024-09-26
+P0338,Sharpener Attack,Office,266,49.86,94.51,11876.9,"Holt, Johns and Ryan",Carmenview,2025-03-29
+P0339,Marker Meeting,Art Supplies,168,20.76,47.68,4522.56,"Martin, Long and Scott",West Elizabeth,2024-05-09
+P0340,Sharpener Organization,Art Supplies,119,111.52,209.37,11644.15,Young-Le,West Christianbury,2025-08-12
+P0341,Notebook Very,Office,369,80.2,181.28,37298.52,Mccarthy-Herrera,Sarahstad,2025-12-19
+P0342,Eraser Memory,Stationery,364,184.22,256.19,26197.08,Gillespie-Miller,West Brittneystad,2025-01-22
+P0343,Sketchbook Soon,Office,293,98.49,145.67,13823.74,Cortez Group,West Davidshire,2025-01-03
+P0344,Notebook Employee,Office,324,128.17,192.01,20684.16,"Torres, Hudson and Lamb",Amandaborough,2026-03-22
+P0345,Pencil From,Office,438,7.15,14.75,3328.8,Williams Ltd,Angelborough,2024-07-09
+P0346,Backpack Sense,Art Supplies,444,93.15,184.32,40479.48,"Moran, Yates and Trujillo",West Alexisborough,2024-08-30
+P0347,Marker Your,School,167,178.04,433.81,42713.59,Sanders-Davis,New Kimfurt,2024-09-04
+P0348,Glue Rock,School,365,114.61,161.27,17030.9,"Jones, Green and Perkins",Walkerview,2024-05-19
+P0349,Highlighter Pay,School,80,20.44,40.42,1598.4,"Wheeler, Ward and Kemp",East Stephanie,2024-09-25
+P0350,Eraser Do,School,422,155.02,380.15,95004.86,Graves-Rodriguez,South Brittany,2025-04-22
+P0351,Tape Heart,Office,475,92.2,186.48,44783.0,Patterson PLC,North Michelleshire,2024-11-19
+P0352,Ruler Fire,School,264,22.47,39.34,4453.68,"Ferguson, Watkins and Webster",Michaelhaven,2025-03-25
+P0353,Eraser In,Office,422,30.15,68.59,16221.68,Smith Group,New Laurieton,2025-02-03
+P0354,Glue Area,Office,280,121.12,143.99,6403.6,Harris-Combs,Lake Angelaborough,2025-05-29
+P0355,Backpack Wonder,Art Supplies,176,109.45,134.12,4341.92,Phillips Group,Donnashire,2024-08-03
+P0356,Calculator Realize,Art Supplies,342,167.54,406.01,81556.74,Parker-Miles,Rodriguezside,2025-04-10
+P0357,Paint Brush Share,School,210,55.99,69.32,2799.3,"Ray, Garcia and Hunter",Evelynfort,2025-10-16
+P0358,Glue Really,Office,87,135.41,210.46,6529.35,Kelly-Collins,New Richard,2025-08-09
+P0359,Backpack Training,Art Supplies,76,105.51,247.08,10759.32,Gutierrez LLC,Hernandezside,2026-03-10
+P0360,Water Bottle Wide,School,386,180.03,332.45,58834.12,"Taylor, Robles and Castaneda",Steeleview,2025-01-06
+P0361,Ruler She,Stationery,68,37.39,49.1,796.28,Thomas Group,Jonathanstad,2025-12-15
+P0362,Stapler Understand,Stationery,452,167.13,341.25,78702.24,Gonzalez-Maldonado,Gateschester,2025-03-09
+P0363,Folder Daughter,Office,335,181.25,437.43,85820.3,"Williams, Robertson and Jackson",West Marcia,2025-07-19
+P0364,Ruler Garden,Office,208,22.81,35.36,2610.4,Fischer-Roberts,Lambertland,2024-08-17
+P0365,Sketchbook Once,Office,234,184.94,253.15,15961.14,Reed LLC,Port Davidfurt,2025-02-14
+P0366,Desk Lamp Young,School,488,68.49,139.61,34706.56,Guzman-Mills,Gentrybury,2024-10-03
+P0367,Desk Lamp Subject,School,207,111.12,139.6,5895.36,"Williams, Maddox and Morrison",South Jonathan,2025-01-07
+P0368,Calculator Likely,Art Supplies,394,44.37,100.28,22028.54,Cole PLC,Chapmanland,2025-12-24
+P0369,Ruler Style,Office,474,54.26,101.26,22278.0,"Walker, Adams and Foster",Lake Christown,2025-06-14
+P0370,Water Bottle High,School,210,60.63,122.04,12896.1,Hawkins Group,New Seth,2025-09-07
+P0371,Stapler Worry,Stationery,42,122.27,232.96,4648.98,Sanchez-Schmidt,Mcbridehaven,2024-10-26
+P0372,Marker Too,Stationery,65,146.39,231.18,5511.35,"Chambers, Kramer and Hayden",New Debraburgh,2025-12-11
+P0373,Desk Lamp Human,Office,307,196.56,222.62,8000.42,Lopez Inc,New Mark,2024-11-19
+P0374,Marker Student,Art Supplies,235,101.68,193.8,21648.2,Johnson-Williams,Lake Christopher,2025-08-22
+P0375,Desk Lamp Skill,Stationery,364,143.29,337.7,70765.24,Davis-Mack,East Shellyfurt,2025-01-07
+P0376,Eraser Industry,Office,448,35.53,79.9,19877.76,"Bass, Wood and Bryan",Copelandhaven,2025-01-30
+P0377,Paint Brush Cup,Stationery,84,194.56,304.86,9265.2,Snyder and Sons,West Kelliburgh,2025-05-15
+P0378,Calculator Kitchen,School,77,176.92,227.14,3866.94,Anderson-Cabrera,North Christinaberg,2026-02-10
+P0379,Tape At,Office,439,57.76,78.01,8889.75,"Martinez, Weaver and Simmons",Trevinomouth,2026-04-12
+P0380,Folder Economy,Stationery,141,7.19,11.16,559.77,Stewart-Olson,West Stevenport,2026-01-03
+P0381,Crayons Movement,Office,123,150.16,338.29,23139.99,"Mitchell, Jordan and Lopez",Jenkinsburgh,2025-04-23
+P0382,Pen Defense,School,426,24.67,47.63,9780.96,Stephens and Sons,Rachelburgh,2025-06-20
+P0383,Stapler Simple,Art Supplies,30,187.67,357.36,5090.7,"Gray, Robinson and Holt",West Jennifer,2025-07-05
+P0384,Sharpener Admit,Stationery,475,187.65,314.81,60401.0,"Miller, Diaz and Wheeler",New Ryan,2025-06-26
+P0385,Pencil Into,Stationery,237,62.67,118.11,13139.28,Reynolds PLC,Nelsonville,2024-10-23
+P0386,Ruler Study,Stationery,483,35.25,65.42,14572.11,Davis-Moore,New Juanshire,2025-08-21
+P0387,Paint Brush Share,School,335,103.47,250.18,49147.85,Ramos-Ellis,Sarahstad,2024-12-25
+P0388,Tape Lead,Art Supplies,496,73.77,164.81,45155.84,"Stanley, Moyer and Stuart",Joanfurt,2025-11-03
+P0389,Stapler Work,School,287,137.65,303.38,47564.51,Johnson-Gomez,West Kaitlynview,2025-05-25
+P0390,Desk Lamp Pm,School,269,48.67,117.48,18509.89,Roberts LLC,North Daniel,2025-03-02
+P0391,Pen Professor,Office,157,31.74,38.57,1072.31,"Williams, Cooper and Green",Mcdanielside,2025-09-29
+P0392,Sketchbook Order,Stationery,173,151.82,258.07,18381.25,Carson Group,Johnhaven,2026-03-06
+P0393,Tape Seek,Art Supplies,434,173.66,269.39,41546.82,Miller-Dixon,Nicholasmouth,2024-10-29
+P0394,Pen Both,School,185,173.64,290.74,21663.5,Tucker PLC,Timothyville,2024-11-02
+P0395,Stapler Stop,Stationery,446,196.98,366.95,75806.62,"Adams, Brown and Johnson",Ryanland,2025-07-28
+P0396,Backpack Edge,School,187,180.12,443.15,49186.61,"Martinez, Campbell and Patterson",East Marie,2026-03-08
+P0397,Scissors Week,Art Supplies,364,137.08,334.35,71806.28,Williams-Jones,Melendezhaven,2025-07-07
+P0398,Water Bottle Treat,Stationery,432,11.6,21.37,4220.64,Gordon-Meza,Clarkmouth,2026-04-15
+P0399,Desk Lamp Always,School,80,91.97,197.24,8421.6,Hill Ltd,New Melissahaven,2024-07-23
+P0400,Marker How,Stationery,175,79.92,133.37,9353.75,Hughes-Hayes,Jonathanport,2024-09-05

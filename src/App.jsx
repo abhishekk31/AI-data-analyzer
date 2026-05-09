@@ -5,7 +5,6 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Fileui from './Components/Fileui'
 import LandingPage from './Components/LandingPage'
-import Card from './Components/Card'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -20,7 +19,7 @@ function App() {
           element={
             <>
               <LandingPage />
-              <Card />
+              
             </>
           }
         />
