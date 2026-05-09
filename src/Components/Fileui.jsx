@@ -476,7 +476,7 @@ const fullChartData = data.map((item, index) => {
 
   // Use first numeric column as value
   const numericKeys = getNumericColumns(item);
-  const valueKey =
+ const valueKey =
   numericKeys.find(key =>
     key.toLowerCase().includes("profit")
   ) ||
@@ -484,6 +484,11 @@ const fullChartData = data.map((item, index) => {
     key.toLowerCase().includes("quantity")
   ) ||
   numericKeys[0];
+
+return {
+  name: item[labelKey] || `Item ${index + 1}`,
+  value: Number(item[valueKey]) || 0
+};
 
   return {
     name: item[labelKey] || `Item ${index + 1}`,
