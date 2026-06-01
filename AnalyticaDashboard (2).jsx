@@ -766,7 +766,7 @@ export default function App() {
             <div className="hero s2">
               <div className="hero-chip">
                 <i className="fa-solid fa-bolt" />
-                Powered by AnalyticaAI
+                Powered by Claude AI
               </div>
               <h1 className="hero-title">Turn raw data into<br /><span>intelligent insights</span></h1>
               <p className="hero-sub">Upload any CSV file and instantly explore interactive charts, AI-driven analysis, and natural-language insights — no coding required.</p>
